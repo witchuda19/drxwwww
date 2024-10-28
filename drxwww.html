@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/drxw.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <title>Product Page</title>
+    </head>
+    
+
+    <body>
+        
+
+          <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example"> <!--บาร์ตัวที่1-->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Always expand</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+                <form role="search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <br>
+        
+        
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example"> <!--บาร์ตัวที่2-->
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Centered nav only</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+
+        </br>
+
+
+        <div class="input-group mb-3"> <!--แบบกรอกข้อมูล-->
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+
+          <div class="row mb-3">
+            <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+            </div>
+          </div>
+          
+          <div class="mb-3">
+            <label for="basic-url" class="form-label">Your vanity URL</label>
+            <div class="input-group">
+              <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+            </div>
+            <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-text">.00</span>
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">With textarea</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+
+          <div class="col-12">  <!--ปุ่ม-->
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+
+          <br><!--ปุ่ม เขียว แดง -->
+          <button type="button" class="btn btn-success btn-sm">Submit</button>
+          <button type="button" class="btn btn-danger btn-sm">Delete</button>
+        </br>
+
+          <br>  <!--เปลี่ยนสีตัวหนังสือ-->
+          <p class="text-primary">.text-primary</p>
+          <p class="text-primary-emphasis">.text-primary-emphasis</p>
+          <p class="text-secondary">.text-secondary</p>
+          <p class="text-secondary-emphasis">.text-secondary-emphasis</p>
+          <p class="text-success">.text-success</p>
+          <p class="text-success-emphasis">.text-success-emphasis</p>
+          <p class="text-danger">.text-danger</p>
+          <p class="text-danger-emphasis">.text-danger-emphasis</p>
+          <p class="text-warning bg-dark">.text-warning</p>
+          <p class="text-warning-emphasis">.text-warning-emphasis</p>
+          <p class="text-info bg-dark">.text-info</p>
+          <p class="text-info-emphasis">.text-info-emphasis</p>
+          <p class="text-light bg-dark">.text-light</p>
+          <p class="text-light-emphasis">.text-light-emphasis</p>
+          <p class="text-dark bg-white">.text-dark</p>
+          <p class="text-dark-emphasis">.text-dark-emphasis</p>
+          
+          <p class="text-body">.text-body</p>
+          <p class="text-body-emphasis">.text-body-emphasis</p>
+          <p class="text-body-secondary">.text-body-secondary</p>
+          <p class="text-body-tertiary">.text-body-tertiary</p>
+          
+          <p class="text-black bg-white">.text-black</p>
+          <p class="text-white bg-dark">.text-white</p>
+          <p class="text-black-50 bg-white">.text-black-50</p>
+          <p class="text-white-50 bg-dark">.text-white-50</p>
+</br>
+
+
+<br><!--เปลี่ยนสีพื้นหลัง-->
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">.bg-primary-subtle</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis">.bg-secondary-subtle</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-success-subtle text-success-emphasis">.bg-success-subtle</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-danger-subtle text-danger-emphasis">.bg-danger-subtle</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-warning-subtle text-warning-emphasis">.bg-warning-subtle</div>
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+<div class="p-3 mb-2 bg-info-subtle text-info-emphasis">.bg-info-subtle</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-light-subtle text-light-emphasis">.bg-light-subtle</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-dark-subtle text-dark-emphasis">.bg-dark-subtle</div>
+<div class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</div>
+<div class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</div>
+<div class="p-3 mb-2 bg-body text-body">.bg-body</div>
+<div class="p-3 mb-2 bg-black text-white">.bg-black</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-body">.bg-transparent</div>
+</br>
+
+<!--สร้างตาราง-->
+<div class="container">
+    <div class="box">Column 1</div>
+    <div class="box">Column 2</div>
+    <div class="box">Column 3</div>
+</div>
+
+<!--ฟรอมข้อมูล-->
+<div class="form-container">
+    <form>
+        <div class="form-group">
+            <label for="name">ชื่อ</label>
+            <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ">
+        </div>
+        <div class="form-group">
+            <label for="phone">เบอร์โทรศัพท์</label>
+            <input type="text" id="phone" name="phone" placeholder="กรอกเบอร์โทรศัพท์">
+        </div>
+        <div class="form-group">
+            <label for="address">ที่อยู่</label>
+            <textarea id="address" name="address" placeholder="กรอกที่อยู่ของคุณ" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="email">อีเมล</label>
+            <input type="email" id="email" name="email" placeholder="กรอกอีเมลของคุณ">
+        </div>
+        <button type="submit" class="btn-submit">ส่งข้อมูล</button>
+    </form>
+</div>
+
+</body>
+
+ <style>
+        /* เปลี่ยนสีพื้นหลังของทั้งเว็บ */
+        body {
+            background-color: #ffffff; /* กำหนดเป็นสีที่ต้องการ เช่น สีขาว */
+        }
+ </style>
+
+</html>

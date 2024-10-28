@@ -1,0 +1,68 @@
+.container { /* สร้างตาราง */
+    display: flex;
+    justify-content: space-between; /* ระยะห่างระหว่างกล่อง */
+}
+
+.box {  /* ตาราง */
+    flex: 1; /* ให้ช่องมีขนาดเท่ากัน */
+    margin: 5px;
+    padding: 20px;
+    background-color: #b3d4fc; /* สีพื้นหลัง */
+    text-align: center;
+}
+
+
+ /* ฟรอมข้อมูล */
+ /* จัดการฟอร์มให้เป็นระเบียบ */
+ .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* จัดการช่องอินพุต */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ปุ่มส่งข้อมูล */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+
+
